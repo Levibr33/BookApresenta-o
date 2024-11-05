@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Leovictor</title>
+<!-- Scripts usados no site -->
+    <script src="https://kit.fontawesome.com/8e079fc1be.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Criação do Logo do Site -->
+            <a class="Titulo" href="#" onclick="showSection('inicio')">Leovictor Araújo</a> 
+            <!-- Criação da barra de menu, com o script para alternar -->
+            <ul class="menu">
+                <li><a href="#" onclick="showSection('inicio')">Início</a></li>
+                <li><a href="#" onclick="showSection('sobre')">Sobre</a></li>
+                <li><a href="#" onclick="showSection('projetos')">Projetos</a></li>
+                <li><a href="#" onclick="showSection('contato')">Contato</a></li>
+            </ul>     
+            <!-- Criação dos botões das redes sociais -->
+            <div class="Sociais">
+                <button><i class="fa-brands fa-instagram"></i></button>
+                <button><i class="fa-brands fa-youtube"></i></button>
+                <button><i class="fa-brands fa-github"></i></button>
+                <button><i class="fa-brands fa-linkedin"></i></button>
+            </div>  
+        </nav> 
+    </header>
+
+<!-- Criação das abas dos sites, lembrando que o script para alternar as paginas está junto. -->
+    <section id="inicio" class="section">
+        <div class = "container">
+            <div class = "apresentacao">
+                <h1>Bem-vindo!</h1>
+                <p>Olá, sou Leovictor Araújo, um estudante de Ciência da Computação de 23 anos, buscando uma oportunidade como Desenvolvedor de Software. Neste site, você encontrará meu portfólio, onde apresento meus projetos, conhecimentos profissionais e trajetória de carreira.</p>
+                <p>Sinta-se à vontade para explorar as páginas e projetos. Vale lembrar que este site foi desenvolvido utilizando HTML, CSS e JavaScript.</p>
+            </div>
+            <div class = "ft1">
+                <img src="Imagens/Leo2.png" alt="Leovictor"> 
+            </div>
+        </div>
+        <div class = "tec">
+            <div class="imagem2">
+                <img src="Imagens/tecnologias.png" alt="tecnologias"> 
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="sobre" class="section" style="display: none;">
+        <h1>Sobre</h1>
+        <p>Esta é a seção Sobre. Aqui você pode adicionar informações sobre você, sua carreira, seus hobbies e interesses.</p>
+    </section>
+
+    <section id="projetos" class="section" style="display: none;">
+        <h1>Projetos</h1>
+        <p>Na seção Projetos, você pode mostrar os trabalhos e projetos que realizou. Adicione descrições, imagens e links para cada projeto.</p>
+    </section>
+
+    <section id="contato" class="section" style="display: none;">
+        <h1>Contato</h1>
+        <p>Esta é a seção Contato. Forneça informações de contato, como e-mail, telefone ou um formulário para que as pessoas possam entrar em contato com você.</p>
+    </section>
+</body>
+</html>
